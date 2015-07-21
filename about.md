@@ -6,7 +6,7 @@ published: true
 ---
 
 
-Cyt-b
+![Avatar]({{site.baseurl}}/images/avatar.png) Cyt-b
 
 やせいをわすれた　のらプログラマの　なれのはて。　やこうせいで　あさはよわい。
 しんかはしない。
