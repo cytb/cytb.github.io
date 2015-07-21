@@ -317,6 +317,13 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $headbgcolor;
+
+  .copystring {
+    color: $top-banner-font-color;
+    text-align: right;
+    margin: 8px 16px;
+    font-size: 0.8em;
+  }
 }
 
 footer {
