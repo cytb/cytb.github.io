@@ -1,4 +1,4 @@
----
+
 ---
 
 //
@@ -32,6 +32,7 @@ body {
 
 .blog-header {
 	border-radius: 8px 8px 0px 0px;
+  /*
 	height: 160px;
 	background-color: #287cba;
 	background-image: -webkit-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
@@ -39,6 +40,7 @@ body {
 	background-image:     -ms-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
 	background-image:         radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
 	position: relative;
+  */
 
   .inner {
     color: #fff;
@@ -186,7 +188,7 @@ img {
 
 .masthead {
   background: url(images/background.png);
-  padding: 20px 0;
+  padding: 10px;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
