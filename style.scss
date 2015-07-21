@@ -26,23 +26,33 @@ body {
 .whole-wrapper {
   margin: 24px auto;
   border-radius: 8px;
+  background-color: $wholebgcolor;
   width: 940px;
 }
 
 .blog-header {
-	border-radius: 4px 4px 0 0;
-	height: 160px;
-	background-color: #287cba;
-	background-image: -webkit-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
-	background-image:    -moz-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
-	background-image:     -ms-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
-	background-image:         radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
-	position: relative;
+  background-color: $headbgcolor;
+  height: $title-image-height;
+	border-radius: 8px 8px 0px 0px;
+
+	// height: 160px;
+	// background-color: #287cba;
+	// background-image: -webkit-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
+	// background-image:    -moz-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
+	// background-image:     -ms-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
+	// background-image:         radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
+	// position: relative;
+
+  .inner {
+    position: absolute;
+    padding: 20px;
+  }
+
+  img {
+    border-radius: 8px 8px 0px 0px;
+  }
 }
 
-.blog-header .inner {
-	padding: 20px;
-}
 
 
 .container {
@@ -178,7 +188,7 @@ img {
 
 .masthead {
   background: url(images/background.png);
-  padding: 20px 0;
+  padding: 10px;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -205,6 +215,8 @@ img {
 
 .site-info {
   float: left;
+  // color: $darkGray;
+  color: $top-banner-font-color;
 
   @include mobile {
     float: none;
@@ -215,7 +227,8 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $top-banner-font-color;
+  // color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -225,7 +238,6 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
   font-size: 16px;
 
   @include mobile {
@@ -248,7 +260,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $top-banner-font-color;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -259,6 +271,11 @@ nav {
     }
   }
 }
+
+#main.container {
+  min-height: 1200px;
+}
+
 
 //
 // .main
@@ -295,10 +312,11 @@ nav {
 }
 
 .wrapper-footer {
+  border-radius: 0px 0px 8px 8px ;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $headbgcolor;
 }
 
 footer {
@@ -310,3 +328,4 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
