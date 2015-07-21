@@ -6,9 +6,17 @@ published: true
 ---
 
 
-野生を忘れた野良プログラマ。進化はしない。
-使えるわざ:LiveScript/JavaScript (30PP)、C++(20PP)、Groovy/Java(15PP)、Haskell (5PP)
-出没地:？？？
+野生を忘れた野良プログラマの成れの果て。夜行性なため朝は弱い。
+進化はしない。
+
+使えるわざ
+(30PP) JavaScript/LiveScript
+(20PP) C/C++
+(15PP) Java/Groovy
+( 5PP) Haskell
+
+出没エリア
+？？？
 
 ### Contact
 https://twitter.com/cyto_b/ (生存)
