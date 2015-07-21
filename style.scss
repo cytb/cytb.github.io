@@ -32,6 +32,7 @@ body {
 
 .blog-header {
 	border-radius: 8px 8px 0px 0px;
+
 	// height: 160px;
 	// background-color: #287cba;
 	// background-image: -webkit-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
@@ -320,3 +321,4 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
