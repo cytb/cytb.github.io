@@ -20,10 +20,14 @@ published: true
 - ( 5PP) Haskell
 
 
+
 出没エリア
 
 - ？？？
 
+
+
 ### Contact
 https://twitter.com/cyto_b/ (生存)
+
 http://cyt-b.blog.jp/ (死亡)
