@@ -31,6 +31,7 @@ body {
 }
 
 .blog-header {
+  background-color: $headbgcolor;
 	border-radius: 8px 8px 0px 0px;
 
 	// height: 160px;
@@ -313,7 +314,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $basebgcolor;
+  background-color: $headbgcolor;
 }
 
 footer {
