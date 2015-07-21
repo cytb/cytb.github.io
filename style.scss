@@ -29,6 +29,21 @@ body {
   width: 940px;
 }
 
+.blog-header {
+	border-radius: 4px 4px 0 0;
+	height: 160px;
+	background-color: #287cba;
+	background-image: -webkit-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
+	background-image:    -moz-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
+	background-image:     -ms-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
+	background-image:         radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
+	position: relative;
+}
+
+.blog-header .inner {
+	padding: 20px;
+}
+
 
 .container {
   margin: 0 auto;
