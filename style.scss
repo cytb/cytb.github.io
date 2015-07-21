@@ -30,7 +30,7 @@ body {
 }
 
 .blog-header {
-	border-radius: 4px 4px 0 0;
+	border-radius: 8px;
 	height: 160px;
 	background-color: #287cba;
 	background-image: -webkit-radial-gradient(left top, ellipse cover, #2e8fc4 0%, #287cba 100%);
@@ -41,6 +41,7 @@ body {
 }
 
 .blog-header .inner {
+  color: #fff;
   position: absolute;
 	padding: 20px;
 }
