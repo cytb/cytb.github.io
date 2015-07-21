@@ -18,10 +18,17 @@ html {
 }
 
 body {
-	background: $white;
+	background: $basebgcolor;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
+
+.whole-wrapper {
+  margin: 24px auto;
+  border-radius: 8px;
+  width: 940px;
+}
+
 
 .container {
   margin: 0 auto;
