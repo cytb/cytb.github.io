@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 ---
 
 ## ブラウザからのインテントの送信について
